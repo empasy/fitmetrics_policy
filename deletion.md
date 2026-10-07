@@ -1,16 +1,18 @@
 # Request Account Deletion
 
-**Last updated:** January 13, 2026
+**Last updated:** October 7, 2026
 
 ## Introduction
 
-At **Misticode**, we value your privacy and control over your data. In accordance with Google Play data safety policies, users of the **Fit Metrics** app have the right to request the complete deletion of their account and all associated data.
+At **Misticode**, we value your privacy and control over your data. In accordance with Google Play data safety policies, users of the **Fit Metrics** app have the right to request the deletion of their account and the data associated with it.
 
 You do not need to have the app installed to request this deletion.
 
 ## How to Request Account Deletion
 
-To permanently delete your account and data, please follow these steps:
+**In the app:** open your profile and choose **Eliminar mi cuenta** (Delete my account). The account is deleted right away.
+
+**By email**, if you no longer have the app:
 
 1.  Send an email to **contacto@misticode.cl**.
 2.  Use the subject line: **"Request Account Deletion - Fit Metrics"**.
@@ -18,7 +20,7 @@ To permanently delete your account and data, please follow these steps:
 
 ## What Happens Next?
 
-Upon receiving your request:
+Upon receiving your request by email:
 1.  We will verify your identity (we may reply to confirm the request).
 2.  Once confirmed, we will initiate the deletion process.
 3.  This process is typically completed within **30 days**.
@@ -26,17 +28,23 @@ Upon receiving your request:
 
 ## Data That Will Be Deleted
 
-When your account is deleted, the following data is permanently removed from our servers (Firestore and Firebase Auth):
+When your account is deleted, the following data is permanently removed from our servers:
 
-* **Identity Data:** Your name, email address, and profile picture.
-* **Health & Fitness Data:** All workout history, heart rate logs, calculated metrics (Calories, TRIMP), and session summaries.
+* **Identity Data:** Your name, email address, profile photo and sign-in account.
+* **Health & Fitness Data:** All workout history, heart rate logs, calculated metrics (Calories, TRIMP), session summaries and personal records.
+* **Health Card:** Your medical conditions, allergies, injury history and emergency contact, together with the record of your consent.
+* **Staff Notes:** The private notes that gym staff kept about you.
 * **Device Data:** Any registered device associations.
+
+Your future class bookings are cancelled.
 
 ## Data Retention
 
-Please note that **Fit Metrics** does not retain any user data after the account deletion process is complete. We do not keep "shadow" copies of your health data.
+The gyms where you were a member keep the history of your memberships, payments and past class bookings as part of their business records. Those records may include your name and email address.
 
-However, we may retain strictly necessary records of the deletion request itself (e.g., the email correspondence) for a limited time solely for legal compliance and audit purposes.
+We do not keep "shadow" copies of your health data.
+
+We may also retain strictly necessary records of the deletion request itself (e.g., the email correspondence) for a limited time solely for legal compliance and audit purposes.
 
 ---
 
