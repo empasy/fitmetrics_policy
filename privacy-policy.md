@@ -1,127 +1,127 @@
-# Privacy Policy for Fit Metrics
+# Política de privacidad de Fit Metrics
 
-**Last updated:** October 7, 2026
+**Última actualización:** 7 de octubre de 2026
 
-## Introduction
+## Introducción
 
-**Misticode** built the **Fit Metrics** app as a free app with commercial intent. This SERVICE is provided by **Misticode** and is intended for use as is.
+**Misticode** creó la app **Fit Metrics** como una app gratuita con fines comerciales. **Misticode** presta este SERVICIO y está pensado para usarse tal como está.
 
-This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
+Esta página informa a los visitantes sobre nuestras políticas de recopilación, uso y divulgación de Información Personal si deciden usar nuestro Servicio.
 
-If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.
+Si eliges usar nuestro Servicio, aceptas la recopilación y el uso de información según esta política. La Información Personal que recopilamos se usa para prestar y mejorar el Servicio. No usaremos ni compartiremos tu información con nadie, salvo como se describe en esta Política de privacidad.
 
-## Information Collection and Use
+## Información que recopilamos y cómo la usamos
 
-For a better experience while using our Service, we may require you to provide us with certain personally identifiable information. The information that we request will be retained by us and used as described in this privacy policy.
+Para que tengas una mejor experiencia al usar nuestro Servicio, podemos pedirte cierta información que te identifica personalmente. La información que pedimos la conservamos y la usamos como se describe en esta política de privacidad.
 
-### 1. Personal Information
-To create an account and manage your profile, we may collect:
-* Name
-* Email address
-* Profile photo (optional). If you add one, it is stored on our servers and shown in your profile and to the staff of the gyms where you have a membership.
+### 1. Información personal
+Para crear tu cuenta y administrar tu perfil, podemos recopilar:
+* Nombre
+* Correo electrónico
+* Foto de perfil (opcional). Si agregas una, se guarda en nuestros servidores y se muestra en tu perfil y al equipo de los centros donde tienes una membresía.
 
-### 2. Physical and Health Data
-To calculate accurate workout metrics (such as Calories and TRIMP), we may request:
-* Age or Date of Birth
-* Gender
-* Weight
-* Height
-* Resting and maximum heart rate, and activity level
-* **Heart Rate Data:** We collect real-time heart rate data from connected devices during your workout sessions. **This data is used exclusively to display your performance and calculate workout intensity.** We do not sell your health data to third parties or use it for advertising purposes.
-* **Workout history:** The sessions you record, their summaries and the personal records you enter.
+### 2. Datos físicos y de salud
+Para calcular métricas de entrenamiento precisas (como Calorías y TRIMP), podemos pedirte:
+* Edad o fecha de nacimiento
+* Género
+* Peso
+* Estatura
+* Frecuencia cardíaca en reposo y máxima, y nivel de actividad
+* **Datos de frecuencia cardíaca:** recopilamos en tiempo real los datos de frecuencia cardíaca de los dispositivos conectados durante tus sesiones de entrenamiento. **Estos datos se usan exclusivamente para mostrar tu rendimiento y calcular la intensidad del entrenamiento.** No vendemos tus datos de salud a terceros ni los usamos con fines publicitarios.
+* **Historial de entrenamiento:** las sesiones que registras, sus resúmenes y los récords personales que ingresas (tus pesos máximos).
 
-### 3. Health Card (optional)
-You can choose to fill in a health card in your profile. It can contain:
-* Medical conditions and allergies
-* Injury history
-* The name and phone number of an emergency contact
+### 3. Ficha de salud (opcional)
+Puedes completar una ficha de salud en tu perfil. Puede contener:
+* Condiciones médicas y alergias
+* Historial de lesiones
+* El nombre y el teléfono de un contacto de emergencia
 
-This information is saved only if you give your explicit consent in the app. It is shown only to the coaches of the gyms where you have a membership in force (active or frozen), so they can look after your safety during training. We do not use it for advertising and we do not sell it.
+Esta información se guarda solo si das tu consentimiento explícito en la app. Solo la ven los coaches de los centros donde tienes una membresía vigente (activa o congelada), para cuidar tu seguridad durante el entrenamiento. No la usamos para publicidad y no la vendemos.
 
-You can erase it at any time by clearing the fields in your profile or by deleting your account. The record of your consent is deleted together with the data. Please make sure your emergency contact agrees to be listed.
+Puedes borrarla en cualquier momento vaciando los campos en tu perfil o eliminando tu cuenta. El registro de tu consentimiento se borra junto con los datos. Asegúrate de que tu contacto de emergencia esté de acuerdo en aparecer en ella.
 
-### 4. Gym Membership and Bookings
-If you join a gym that uses Fit Metrics, we store the information needed to manage your membership there:
-* Your membership, plan and remaining credits
-* The classes you book and cancel
-* The payment records your gym enters for your plan. The app does not process payments or store card details.
-* Your acceptance of the gym's agreement
-* Private notes that the gym's staff may keep about you
+### 4. Membresía en un centro y reservas
+Si te unes a un centro que usa Fit Metrics, guardamos la información necesaria para administrar tu membresía en él:
+* Tu membresía, tu plan y los créditos que te quedan
+* Las clases que reservas y cancelas
+* Los registros de pago que tu centro ingresa para tu plan. La app no procesa pagos ni guarda datos de tarjetas.
+* Tu aceptación del acuerdo del centro
+* Notas privadas que el equipo del centro puede llevar sobre ti
 
-When you join a live class with a heart rate monitor, your name and your live heart rate data are shown on the gym's screen so that you and your coach can follow the workout.
+Cuando te unes a una clase en vivo con un monitor de frecuencia cardíaca, tu nombre y tus datos de frecuencia cardíaca en vivo se muestran en la pantalla del centro para que tú y tu coach puedan seguir el entrenamiento.
 
-### 5. Device Permissions
-The app requires specific permissions to function properly:
-* **Bluetooth:** To scan and connect to external heart rate monitors.
-* **Camera:** To scan the QR code of your class, to take a background photo for the workouts you share and, if you manage a gym, to photograph its logo.
-* **Photos/Gallery:** To let you choose your profile photo, the background of the workouts you share or your gym's logo, and to save or share workout summary images generated by the app.
-* **Location:** On specific Android versions, location permission is technically required to scan for Bluetooth Low Energy devices. We do not track, store, or share your physical location history.
+### 5. Permisos del dispositivo
+La app necesita permisos específicos para funcionar correctamente:
+* **Bluetooth:** para buscar y conectar monitores de frecuencia cardíaca externos.
+* **Cámara:** para escanear el código QR de tu clase, tomar una foto de fondo para los entrenamientos que compartes y, si administras un centro, fotografiar su logo.
+* **Fotos/Galería:** para que elijas tu foto de perfil, el fondo de los entrenamientos que compartes o el logo de tu centro, y para guardar o compartir las imágenes de resumen de entrenamiento que genera la app.
+* **Ubicación:** en algunas versiones de Android, el permiso de ubicación es técnicamente necesario para buscar dispositivos Bluetooth Low Energy. No rastreamos, no guardamos ni compartimos tu historial de ubicación física.
 
-## Who Can See Your Information
+## Quién puede ver tu información
 
-* **You**, in the app.
-* **The staff of the gyms where you have a membership:** your name, email address, profile photo, birthday, membership and bookings.
-* **The coaches of those gyms:** your health card, only while your membership is in force.
-* **People present at the gym during a live class:** your name and live heart rate data on the gym's screen.
-* **Misticode**, to operate, maintain and support the Service.
+* **Tú**, en la app.
+* **El equipo de los centros donde tienes una membresía:** tu nombre, correo electrónico, foto de perfil, cumpleaños, membresía y reservas.
+* **Los coaches de esos centros:** tu ficha de salud, solo mientras tu membresía esté vigente.
+* **Las personas presentes en el centro durante una clase en vivo:** tu nombre y tus datos de frecuencia cardíaca en vivo en la pantalla del centro.
+* **Misticode**, para operar, mantener y dar soporte al Servicio.
 
-We do not sell your personal information, and we do not use your health data for advertising.
+No vendemos tu información personal y no usamos tus datos de salud para publicidad.
 
-## Third Party Services
+## Servicios de terceros
 
-The app does use third party services that may collect information used to identify you.
-Link to privacy policy of third party service providers used by the app:
+La app usa servicios de terceros que pueden recopilar información que te identifica.
+Enlaces a las políticas de privacidad de los proveedores de servicios de terceros que usa la app:
 
 * [Google Play Services](https://policies.google.com/privacy)
-* [Google Analytics for Firebase](https://firebase.google.com/policies/analytics)
+* [Google Analytics para Firebase](https://firebase.google.com/policies/analytics)
 * [Firebase Crashlytics](https://firebase.google.com/support/privacy/)
-* [Firebase](https://firebase.google.com/support/privacy/) (Authentication, Cloud Firestore, Realtime Database, Cloud Storage, Remote Config and Performance Monitoring) and [Google Cloud](https://cloud.google.com/terms/cloud-privacy-notice), which host our database, files and servers.
+* [Firebase](https://firebase.google.com/support/privacy/) (Authentication, Cloud Firestore, Realtime Database, Cloud Storage, Remote Config y Performance Monitoring) y [Google Cloud](https://cloud.google.com/terms/cloud-privacy-notice), que alojan nuestra base de datos, archivos y servidores.
 
 ## Cookies
 
-Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
+Las cookies son archivos con una pequeña cantidad de datos que se usan comúnmente como identificadores únicos anónimos. Los sitios web que visitas los envían a tu navegador y se guardan en la memoria interna de tu dispositivo.
 
-This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries (like Firebase) that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device.
+Este Servicio no usa estas «cookies» de forma explícita. Sin embargo, la app puede usar código y bibliotecas de terceros (como Firebase) que usan «cookies» para recopilar información y mejorar sus servicios. Puedes aceptar o rechazar estas cookies y saber cuándo se envía una cookie a tu dispositivo.
 
-## Service Providers
+## Proveedores de servicios
 
-We may employ third-party companies and individuals due to the following reasons:
-* To facilitate our Service;
-* To provide the Service on our behalf;
-* To perform Service-related services; or
-* To assist us in analyzing how our Service is used.
+Podemos contratar a empresas y personas externas por las siguientes razones:
+* Para facilitar nuestro Servicio;
+* Para prestar el Servicio en nuestro nombre;
+* Para realizar servicios relacionados con el Servicio; o
+* Para ayudarnos a analizar cómo se usa nuestro Servicio.
 
-We want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+Queremos que sepas que estos terceros tienen acceso a tu Información Personal. El motivo es realizar las tareas que les asignamos en nuestro nombre. Sin embargo, están obligados a no divulgar ni usar la información para ningún otro fin.
 
-## Security
+## Seguridad
 
-We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.
+Valoramos tu confianza al entregarnos tu Información Personal, por lo que nos esforzamos por usar medios comercialmente aceptables para protegerla. Pero recuerda que ningún método de transmisión por internet ni de almacenamiento electrónico es 100 % seguro y confiable, y no podemos garantizar su seguridad absoluta.
 
-## Children’s Privacy
+## Privacidad de los niños
 
-These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions.
+Estos Servicios no están dirigidos a menores de 13 años. No recopilamos a sabiendas información de identificación personal de menores de 13 años. Si descubrimos que un menor de 13 años nos entregó información personal, la borramos de inmediato de nuestros servidores. Si eres madre, padre o tutor y sabes que tu hijo o hija nos entregó información personal, contáctanos para que podamos tomar las medidas necesarias.
 
-## Data Retention and Deletion
+## Conservación y eliminación de datos
 
-We retain your personal information only for as long as is necessary for the purposes set out in this Privacy Policy. You have the right to request the deletion of your account. You can do this directly from your profile in the app or by contacting us at our support email.
+Conservamos tu información personal solo durante el tiempo necesario para los fines descritos en esta Política de privacidad. Tienes derecho a solicitar la eliminación de tu cuenta. Puedes hacerlo directamente desde tu perfil en la app o escribiendo a nuestro correo de soporte.
 
-Deleting your account:
-* Removes your profile and profile photo, your workout sessions (including heart rate data), your personal records and your health card.
-* Removes the private notes that gym staff kept about you.
-* Cancels your future class bookings.
+Eliminar tu cuenta:
+* Borra tu perfil y tu foto de perfil, tus sesiones de entrenamiento (incluidos los datos de frecuencia cardíaca), tus récords personales y tu ficha de salud.
+* Borra las notas privadas que el equipo de los centros llevaba sobre ti.
+* Cancela tus reservas de clases futuras.
 
-The gyms where you were a member keep the history of your memberships, payments and past class bookings as part of their business records. Those records may include your name and email address.
+Los centros donde fuiste miembro conservan el historial de tus membresías, pagos y reservas de clases pasadas como parte de sus registros comerciales. Esos registros pueden incluir tu nombre y tu correo electrónico.
 
-See [Request Account Deletion](deletion.md) for the steps.
+Revisa [Solicitar la eliminación de la cuenta](deletion.md) para ver los pasos.
 
-## Changes to This Privacy Policy
+## Cambios a esta Política de privacidad
 
-We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.
+Podemos actualizar nuestra Política de privacidad de vez en cuando, así que te recomendamos revisar esta página periódicamente. Te avisaremos de cualquier cambio publicando la nueva Política de privacidad en esta página.
 
-## Contact Us
+## Contacto
 
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us.
+Si tienes preguntas o sugerencias sobre nuestra Política de privacidad, no dudes en escribirnos.
 
 **Misticode**
-Email: contacto@misticode.cl
-Website: https://www.misticode.cl
+Correo: contacto@misticode.cl
+Sitio web: https://www.misticode.cl
