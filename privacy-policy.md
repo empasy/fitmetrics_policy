@@ -25,7 +25,7 @@ Para calcular métricas de entrenamiento precisas (como Calorías y TRIMP), pode
 * Edad o fecha de nacimiento
 * Género
 * Peso
-* Estatura
+* Altura
 * Frecuencia cardíaca en reposo y máxima, y nivel de actividad
 * **Datos de frecuencia cardíaca:** recopilamos en tiempo real los datos de frecuencia cardíaca de los dispositivos conectados durante tus sesiones de entrenamiento. **Estos datos se usan exclusivamente para mostrar tu rendimiento y calcular la intensidad del entrenamiento.** No vendemos tus datos de salud a terceros ni los usamos con fines publicitarios.
 * **Historial de entrenamiento:** las sesiones que registras, sus resúmenes y los récords personales que ingresas (tus pesos máximos).
@@ -65,18 +65,18 @@ Los centros donde tienes una membresía pueden enviarte estos mensajes en la app
 
 Los textos los escribe el equipo de tu centro, o son los predeterminados de Fit Metrics. Para armar cada mensaje usamos tu nombre, el nombre del centro y de tu plan, la fecha en que vence tu plan y el día y el mes de tu fecha de nacimiento. El texto queda fijo al crear el mensaje.
 
-Guardamos en nuestros servidores cada mensaje que recibes: su texto, el centro que lo envía, el día en que se creó, si lo cerraste y si se envió su notificación. El equipo de tu centro escribe los textos, pero no ve a quién se envió cada mensaje ni si lo cerraste. Si eres parte del equipo de un centro, guardamos quién editó por última vez cada mensaje del centro y cuándo.
+Guardamos en nuestros servidores cada mensaje que recibes: su texto, el centro que lo envía, el plan y la fecha de término a los que se refiere, el día en que se creó, si lo cerraste, si se canceló (por ejemplo, porque renovaste tu plan) y si se envió su notificación. El equipo de tu centro escribe los textos, pero no ve a quién se envió cada mensaje ni si lo cerraste. Si eres parte del equipo de un centro, guardamos quién editó por última vez cada mensaje del centro y cuándo.
 
 #### Notificaciones push
 Si tu teléfono permite las notificaciones de Fit Metrics, los avisos de tu plan también te llegan como notificación:
 * Para enviarlas usamos Firebase Cloud Messaging (FCM), un servicio de Google. Tu teléfono obtiene de FCM un token de notificaciones: un identificador de esta instalación de la app, que no contiene tu nombre ni tu correo. Lo guardamos en nuestros servidores con tu cuenta, el tipo de teléfono (iPhone o Android) y las fechas en que se registró.
-* Solo registramos el token mientras tu teléfono permita las notificaciones de Fit Metrics. En iPhone y en Android 13 o posterior, la app te pide permiso primero; en versiones anteriores de Android vienen permitidas, salvo que las desactives en los ajustes del teléfono. Sin ese permiso no guardamos ningún token, y los mensajes igual aparecen en el inicio de la app.
+* Solo registramos el token si tu teléfono permite las notificaciones de Fit Metrics. En iPhone y en Android 13 o posterior, la app te pide permiso primero; en versiones anteriores de Android vienen permitidas, salvo que las desactives en los ajustes del teléfono. Sin ese permiso no guardamos ningún token, y los mensajes igual aparecen en el inicio de la app.
 * Al abrir la app, FCM puede generar un token aunque no permitas las notificaciones: ese token no se envía a nuestros servidores y no lo usamos.
 * Para entregar cada notificación, enviamos su título y su texto (que pueden incluir tu nombre, el nombre de tu centro y de tu plan y la fecha en que vence) a Firebase Cloud Messaging. En iPhone, FCM la entrega a través del servicio de notificaciones push de Apple (Apple Push Notification service, APNs). La notificación también lleva el tipo de mensaje e identificadores internos del mensaje y del centro, que la app usa para abrir el inicio.
 * Nuestros registros técnicos de los envíos no guardan el token, el texto del mensaje ni tu nombre.
 
 #### Cómo dejar de recibirlos
-* **«Avisos de tu plan»:** apágalo en **Notificaciones**, en el menú lateral de la app, y dejarán de llegarte las notificaciones de tu plan. El cambio rige de inmediato. Las tarjetas de tu plan siguen apareciendo en el inicio de la app.
+* **«Avisos de tu plan»:** viene encendido. Apágalo en **Notificaciones**, en el menú lateral de la app, y dejarán de llegarte las notificaciones de tu plan. El cambio rige de inmediato. Las tarjetas de tu plan siguen apareciendo en el inicio de la app.
 * **Ajustes del teléfono:** si desactivas ahí las notificaciones de Fit Metrics, el teléfono deja de mostrarlas y la app borra el token la próxima vez que la abras.
 * **«Cerrar mensaje»:** cierra una tarjeta del inicio. Esa tarjeta no vuelve a aparecer en ninguno de tus teléfonos.
 * **Cerrar sesión** en un teléfono borra su token, y ese teléfono deja de recibir tus notificaciones.
@@ -157,7 +157,7 @@ Podemos actualizar nuestra Política de privacidad de vez en cuando, así que te
 | Versión | Fecha | Qué cambió |
 |---|---|---|
 | 1 | 13 de enero de 2026 | Primera versión, en inglés. |
-| 2 | 7 de octubre de 2026 | Foto de perfil, ficha de salud, membresía y reservas, quién puede ver tu información, permisos de cámara y fotos, servicios de terceros y qué borra eliminar la cuenta. En inglés. |
+| 2 | 7 de octubre de 2026 | Ficha de salud, membresía y reservas, más detalle de la foto de perfil y del historial de entrenamiento, quién puede ver tu información, permisos de cámara y fotos, servicios de terceros y qué borra eliminar la cuenta. En inglés. |
 | 3 | 3 de noviembre de 2026 | En español. Mensajes de tu centro y notificaciones push: Firebase Cloud Messaging, APNs, tokens de notificaciones, cuánto tiempo se guardan y cómo dejar de recibirlos. |
 
 ## Contacto
