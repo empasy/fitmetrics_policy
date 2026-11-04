@@ -34,7 +34,7 @@ Cuando se elimina tu cuenta, se borran de forma permanente de nuestros servidore
 * **Datos de salud y entrenamiento:** todo tu historial de entrenamiento, los registros de frecuencia cardíaca, las métricas calculadas (Calorías, TRIMP), los resúmenes de sesión y los récords personales.
 * **Ficha de salud:** tus condiciones médicas, alergias, historial de lesiones y contacto de emergencia, junto con el registro de tu consentimiento.
 * **Notas del equipo:** las notas privadas que el equipo de los centros llevaba sobre ti.
-* **Mensajes de tus centros:** los avisos de tu plan y los saludos de cumpleaños que recibiste en la app, con su estado (si los cerraste y si se envió su notificación).
+* **Mensajes de tus centros:** los avisos de tu plan y los saludos de cumpleaños que recibiste en la app, con su estado (si los cerraste, si se cancelaron y si se envió su notificación).
 * **Preferencias de notificaciones:** tu elección en «Avisos de tu plan», con su fecha y la versión del texto que viste.
 * **Datos del dispositivo:** tus tokens de notificaciones (los identificadores con los que te enviamos notificaciones push) y cualquier otra asociación de dispositivos registrada.
 
