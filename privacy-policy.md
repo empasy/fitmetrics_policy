@@ -1,6 +1,6 @@
 # Política de privacidad de Fit Metrics
 
-**Versión 3** · **Última actualización:** 3 de noviembre de 2026
+**Versión 4** · **Última actualización:** 5 de noviembre de 2026
 
 ## Introducción
 
@@ -56,28 +56,40 @@ La app necesita permisos específicos para funcionar correctamente:
 * **Cámara:** para escanear el código QR de tu clase, tomar una foto de fondo para los entrenamientos que compartes y, si administras un centro, fotografiar su logo.
 * **Fotos/Galería:** para que elijas tu foto de perfil, el fondo de los entrenamientos que compartes o el logo de tu centro, y para guardar o compartir las imágenes de resumen de entrenamiento que genera la app.
 * **Ubicación:** en algunas versiones de Android, el permiso de ubicación es técnicamente necesario para buscar dispositivos Bluetooth Low Energy. No rastreamos, no guardamos ni compartimos tu historial de ubicación física.
-* **Notificaciones:** para mostrar en tu teléfono los avisos de tu plan (ver la sección 6) y, en Android, la notificación «Entrenamiento en curso» mientras registras una sesión de entrenamiento. Es opcional: si la app nunca tuvo este permiso, no obtiene ningún token de notificaciones, y si lo quitas, borra el token la próxima vez que la abras. Los mensajes igual aparecen en el inicio de la app.
+* **Notificaciones:** para mostrar en tu teléfono los avisos de tu plan, los saludos y beneficios de tus centros si aceptas recibirlos (ver la sección 6) y, en Android, la notificación «Entrenamiento en curso» mientras registras una sesión de entrenamiento. Es opcional: si la app nunca tuvo este permiso, no obtiene ningún token de notificaciones, y si lo quitas, borra el token la próxima vez que la abras. Los mensajes igual aparecen en el inicio de la app.
 
 ### 6. Mensajes de tu centro y notificaciones
 Los centros donde tienes una membresía pueden enviarte estos mensajes en la app:
 * **Avisos de tu plan:** 3 días antes de que venza tu plan, el día en que vence y 3 días después, si no lo renovaste.
 * **Saludo de cumpleaños:** el día de tu cumpleaños, en el inicio de la app.
+* **Oferta para volver:** 10 días después de que venza tu plan, si no lo renovaste. Solo si tu centro la activó y aceptaste recibir saludos y beneficios.
+* **Regalo de cumpleaños:** un beneficio de un convenio de tu centro (ver la sección 7), que aparece bajo tu saludo de cumpleaños y al comienzo de su notificación. Solo si tu centro eligió uno y aceptaste recibir saludos y beneficios.
 
-Los textos los escribe el equipo de tu centro, o son los predeterminados de Fit Metrics. Para armar cada mensaje usamos tu nombre, el nombre del centro y de tu plan, la fecha en que vence tu plan y el día y el mes de tu fecha de nacimiento. El texto queda fijo al crear el mensaje.
+Los textos los escribe el equipo de tu centro, o son los predeterminados de Fit Metrics. Para armar cada mensaje usamos tu nombre, el nombre del centro y de tu plan, la fecha en que vence tu plan y el día y el mes de tu fecha de nacimiento. El texto queda fijo al crear el mensaje. El regalo, en cambio, se agrega cada vez que se muestra o se envía el saludo: si ese día el centro no ofrece el convenio a sus alumnos (porque venció, aún no empieza o el centro lo ocultó o lo eliminó), el saludo sale sin regalo.
 
-Guardamos en nuestros servidores cada mensaje que recibes: su texto, el centro que lo envía, el plan y la fecha de término a los que se refiere, el día en que se creó, si lo cerraste, si se canceló (por ejemplo, porque renovaste tu plan) y si se envió su notificación. El equipo de tu centro escribe los textos, pero no ve a quién se envió cada mensaje ni si lo cerraste. Si eres parte del equipo de un centro, guardamos quién editó por última vez cada mensaje del centro y cuándo.
+Guardamos en nuestros servidores cada mensaje que recibes: su texto, el centro que lo envía, el plan y la fecha de término a los que se refiere, el día en que se creó, si lo cerraste, si se canceló (por ejemplo, porque renovaste tu plan) y si se envió su notificación; en un saludo de cumpleaños, también el convenio que tu centro eligió como regalo. El equipo de tu centro escribe los textos, pero no ve a quién se envió cada mensaje ni si lo cerraste. Si eres parte del equipo de un centro, guardamos quién editó por última vez cada mensaje del centro y cuándo.
+
+#### Saludos y beneficios de tus centros
+La oferta para volver, el regalo de cumpleaños y la notificación de tu saludo de cumpleaños te llegan solo si aceptas recibirlos. Viene apagado.
+* Si tu teléfono permite las notificaciones de Fit Metrics y aún no respondiste, la app te pregunta «¿Quieres recibir saludos y beneficios de tus centros?». Ninguna respuesta viene marcada: eliges «Sí, quiero recibirlos» o «No, gracias». Si cierras la pregunta sin responder, sigue apagado, y la app puede volver a preguntarte más adelante.
+* También puedes encenderlo o apagarlo cuando quieras en **Notificaciones**, en el menú lateral, aunque tu teléfono no permita las notificaciones.
+* Tu respuesta vale para todos tus centros. Guardamos solo tu última respuesta, con su fecha y la versión del texto que viste.
+* Si aceptas, los ves en el inicio de la app y, si tu teléfono permite las notificaciones, también como notificación.
+* No necesitas aceptarlo para usar la app. Con él apagado igual recibes los avisos de tu plan y ves el saludo de cumpleaños, sin regalo, en el inicio.
+* El equipo de tu centro no ve tu respuesta.
 
 #### Notificaciones push
-Si tu teléfono permite las notificaciones de Fit Metrics, los avisos de tu plan también te llegan como notificación:
+Si tu teléfono permite las notificaciones de Fit Metrics, los avisos de tu plan y, si los aceptaste, los saludos y beneficios de tus centros también te llegan como notificación:
 * Para enviarlas usamos Firebase Cloud Messaging (FCM), un servicio de Google. Tu teléfono obtiene de FCM un token de notificaciones: un identificador de esta instalación de la app, que no contiene tu nombre ni tu correo. Lo guardamos en nuestros servidores con tu cuenta, el tipo de teléfono (iPhone o Android) y las fechas en que se registró.
 * La app obtiene el token y lo registra en nuestros servidores solo cuando se cumplen dos condiciones: los mensajes de los centros están disponibles en la app y tu teléfono permite las notificaciones de Fit Metrics. Si aún no las permite, en iPhone y en Android 13 o posterior la app te pide permiso; si ya están permitidas (por ejemplo, porque las activaste en los ajustes del teléfono), la app obtiene y registra el token sin preguntarte. En versiones anteriores de Android vienen permitidas, salvo que las desactives en los ajustes del teléfono.
 * Si tu teléfono nunca permitió las notificaciones de Fit Metrics, no obtiene ningún token de FCM (ni, en iPhone, uno de Apple) y nosotros no guardamos ninguno. Los mensajes igual aparecen en el inicio de la app.
 * Si estaban permitidas y las desactivas, tu teléfono puede tener un token de FCM hasta la próxima vez que abras la app. Entonces la app lo borra (y, si estaba registrado, también de nuestros servidores) y no registra uno nuevo (ver «Cómo dejar de recibirlos»). En iPhone, al abrir la app esa vez, el teléfono puede volver a obtener un token de Apple, que nunca llega a nuestros servidores.
-* Para entregar cada notificación, enviamos su título y su texto (que pueden incluir tu nombre, el nombre de tu centro y de tu plan y la fecha en que vence) a Firebase Cloud Messaging. En iPhone, FCM la entrega a través del servicio de notificaciones push de Apple (Apple Push Notification service, APNs). La notificación también lleva el tipo de mensaje e identificadores internos del mensaje y del centro, que la app usa para abrir el inicio.
+* Para entregar cada notificación, enviamos su título y su texto (que pueden incluir tu nombre, el nombre de tu centro y de tu plan, la fecha en que vence, el saludo de tu cumpleaños y el beneficio y la empresa de tu regalo) a Firebase Cloud Messaging. En iPhone, FCM la entrega a través del servicio de notificaciones push de Apple (Apple Push Notification service, APNs). La notificación también lleva el tipo de mensaje e identificadores internos del mensaje y del centro, que la app usa para abrir el inicio.
 * Nuestros registros técnicos de los envíos no guardan el token, el texto del mensaje ni tu nombre.
 
 #### Cómo dejar de recibirlos
-* **«Avisos de tu plan»:** viene encendido. Apágalo en **Notificaciones**, en el menú lateral de la app, y dejarán de llegarte las notificaciones de tu plan. El cambio rige de inmediato. Las tarjetas de tu plan siguen apareciendo en el inicio de la app.
+* **«Avisos de tu plan»:** viene encendido. Apágalo en **Notificaciones**, en el menú lateral de la app, y dejarán de llegarte las notificaciones de tu plan. El cambio rige de inmediato. Las tarjetas de tu plan siguen apareciendo en el inicio de la app. La oferta para volver no depende de este ajuste, sino de «Saludos y beneficios de tus centros».
+* **«Saludos y beneficios de tus centros»:** viene apagado. Si lo aceptaste, apágalo en **Notificaciones**. En el inicio, la oferta para volver y el saludo con regalo llevan al pie «Dejar de recibir», que te lleva ahí. El cambio rige de inmediato: dejas de ver la oferta para volver y el regalo en el inicio, y no te llegan sus notificaciones ni la de tu cumpleaños. El saludo de cumpleaños sin regalo sigue apareciendo en el inicio.
 * **Ajustes del teléfono:** si desactivas ahí las notificaciones de Fit Metrics, el teléfono deja de mostrarlas y la app borra el token la próxima vez que la abras.
 * **«Cerrar mensaje»:** cierra una tarjeta del inicio. Esa tarjeta no vuelve a aparecer en ninguno de tus teléfonos.
 * **Cerrar sesión** en un teléfono borra su token, y ese teléfono deja de recibir tus notificaciones.
@@ -86,8 +98,14 @@ Si tu teléfono permite las notificaciones de Fit Metrics, los avisos de tu plan
 #### Cuánto tiempo los guardamos
 * **Token de notificaciones:** hasta que cierres sesión en ese teléfono, desactives las notificaciones (se borra la próxima vez que abras la app) o elimines tu cuenta. Si los mensajes de los centros dejan de estar disponibles en la app, también se borra, pero recién cuando la app recibe ese cambio, al abrirla: puede que no sea la primera vez que la abras después del cambio, porque la app revisa ese ajuste al iniciarse y como máximo una vez por hora. También lo borramos cuando FCM, al enviarte un mensaje, nos indica que ya no es válido (por ejemplo, porque desinstalaste la app).
 * **Mensajes:** mientras tengas tu cuenta. Se borran al eliminarla.
-* **Preferencia «Avisos de tu plan»:** guardamos solo tu última elección, con su fecha y la versión del texto que viste, mientras tengas tu cuenta.
+* **Preferencias «Avisos de tu plan» y «Saludos y beneficios de tus centros»:** guardamos solo tu última elección en cada una, con su fecha y la versión del texto que viste, mientras tengas tu cuenta.
 * **Registro de quién editó cada mensaje:** si eres parte del equipo de un centro, se conserva hasta que alguien vuelva a editar ese mensaje, también después de eliminar tu cuenta.
+
+### 7. Convenios de tu centro
+Los centros pueden registrar en la app sus convenios con otras empresas o servicios, por ejemplo un descuento en una tienda o con una nutricionista: la empresa, el beneficio, sus condiciones y sus fechas de vigencia.
+* Si tienes una membresía vigente (activa o congelada) en un centro, puedes ver en la app los convenios vigentes que el centro muestra a sus alumnos.
+* No compartimos tus datos con las empresas de los convenios, y la app no registra si usas un convenio. Si las condiciones de un convenio te piden mostrar la app, la empresa ve lo que tú le muestres.
+* Si eres parte del equipo de un centro, guardamos quién creó cada convenio y quién lo editó por última vez, y cuándo. Quién lo creó se conserva hasta que se elimine el convenio, y quién lo editó, hasta que alguien vuelva a editarlo o se elimine el convenio, también después de eliminar tu cuenta.
 
 ## Quién puede ver tu información
 
@@ -98,7 +116,7 @@ Si tu teléfono permite las notificaciones de Fit Metrics, los avisos de tu plan
 * **Google y, en iPhone, Apple:** el título y el texto de cada notificación que te enviamos, para entregarla en tu teléfono (sección 6).
 * **Misticode**, para operar, mantener y dar soporte al Servicio.
 
-No vendemos tu información personal y no usamos tus datos de salud para publicidad.
+No vendemos tu información personal y no usamos tus datos de salud para publicidad. Tampoco compartimos tus datos con las empresas de los convenios de tus centros (sección 7).
 
 ## Servicios de terceros
 
@@ -143,10 +161,10 @@ Conservamos tu información personal solo durante el tiempo necesario para los f
 Eliminar tu cuenta:
 * Borra tu perfil y tu foto de perfil, tus sesiones de entrenamiento (incluidos los datos de frecuencia cardíaca), tus récords personales y tu ficha de salud.
 * Borra las notas privadas que el equipo de los centros llevaba sobre ti.
-* Borra los mensajes de tus centros, tus tokens de notificaciones y tus preferencias de notificaciones.
+* Borra los mensajes de tus centros, tus tokens de notificaciones y tus preferencias de notificaciones, incluida tu respuesta a «Saludos y beneficios de tus centros».
 * Cancela tus reservas de clases futuras.
 
-Los centros donde fuiste miembro conservan el historial de tus membresías, pagos y reservas de clases pasadas como parte de sus registros comerciales. Esos registros pueden incluir tu nombre y tu correo electrónico. Si fuiste parte del equipo de un centro, el registro de quién editó por última vez cada mensaje del centro, y cuándo, se conserva hasta que alguien vuelva a editar ese mensaje.
+Los centros donde fuiste miembro conservan el historial de tus membresías, pagos y reservas de clases pasadas como parte de sus registros comerciales. Esos registros pueden incluir tu nombre y tu correo electrónico. Si fuiste parte del equipo de un centro, el registro de quién editó por última vez cada mensaje del centro, y cuándo, se conserva hasta que alguien vuelva a editar ese mensaje. En los convenios del centro, quién creó cada uno, y cuándo, se conserva hasta que se elimine el convenio, y quién lo editó por última vez, hasta que alguien vuelva a editarlo o se elimine.
 
 Revisa [Solicitar la eliminación de la cuenta](deletion.md) para ver los pasos.
 
@@ -161,6 +179,7 @@ Podemos actualizar nuestra Política de privacidad de vez en cuando, así que te
 | 1 | 13 de enero de 2026 | Primera versión, en inglés. |
 | 2 | 7 de octubre de 2026 | Ficha de salud, membresía y reservas, más detalle de la foto de perfil y del historial de entrenamiento, quién puede ver tu información, permisos de cámara y fotos, servicios de terceros y qué borra eliminar la cuenta. En inglés. |
 | 3 | 3 de noviembre de 2026 | En español. Mensajes de tu centro y notificaciones push: Firebase Cloud Messaging, APNs, tokens de notificaciones, cuánto tiempo se guardan y cómo dejar de recibirlos. El permiso de notificaciones. «Cookies» ya no ofrece aceptar o rechazar cookies, un ajuste que la app no tiene. |
+| 4 | 5 de noviembre de 2026 | «Saludos y beneficios de tus centros»: la oferta para volver, el regalo y la notificación del cumpleaños, cómo te preguntamos, qué guardamos de tu respuesta y cómo dejar de recibirlos. Convenios de tu centro: quién los ve, que no compartimos tus datos con sus empresas y qué guardamos de quién los crea o edita. |
 
 ## Contacto
 
