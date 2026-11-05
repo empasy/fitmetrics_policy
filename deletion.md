@@ -1,6 +1,6 @@
 # Solicitar la eliminación de la cuenta
 
-**Última actualización:** 3 de noviembre de 2026
+**Última actualización:** 5 de noviembre de 2026
 
 ## Introducción
 
@@ -34,8 +34,8 @@ Cuando se elimina tu cuenta, se borran de forma permanente de nuestros servidore
 * **Datos de salud y entrenamiento:** todo tu historial de entrenamiento, los registros de frecuencia cardíaca, las métricas calculadas (Calorías, TRIMP), los resúmenes de sesión y los récords personales.
 * **Ficha de salud:** tus condiciones médicas, alergias, historial de lesiones y contacto de emergencia, junto con el registro de tu consentimiento.
 * **Notas del equipo:** las notas privadas que el equipo de los centros llevaba sobre ti.
-* **Mensajes de tus centros:** los avisos de tu plan y los saludos de cumpleaños que recibiste en la app, con su estado (si los cerraste, si se cancelaron y si se envió su notificación).
-* **Preferencias de notificaciones:** tu elección en «Avisos de tu plan», con su fecha y la versión del texto que viste.
+* **Mensajes de tus centros:** los avisos de tu plan, los saludos de cumpleaños y las ofertas para volver que recibiste en la app, con su estado (si los cerraste, si se cancelaron y si se envió su notificación) y, en los saludos de cumpleaños, el convenio que tu centro eligió como regalo.
+* **Preferencias de notificaciones:** tus elecciones en «Avisos de tu plan» y en «Saludos y beneficios de tus centros», cada una con su fecha y la versión del texto que viste.
 * **Datos del dispositivo:** tus tokens de notificaciones (los identificadores con los que te enviamos notificaciones push) y cualquier otra asociación de dispositivos registrada.
 
 Se cancelan tus reservas de clases futuras.
@@ -44,7 +44,7 @@ Se cancelan tus reservas de clases futuras.
 
 Los centros donde fuiste miembro conservan el historial de tus membresías, pagos y reservas de clases pasadas como parte de sus registros comerciales. Esos registros pueden incluir tu nombre y tu correo electrónico.
 
-Si fuiste parte del equipo de un centro, el registro de quién editó por última vez cada mensaje del centro, y cuándo, se conserva hasta que alguien vuelva a editar ese mensaje.
+Si fuiste parte del equipo de un centro, el registro de quién editó por última vez cada mensaje del centro, y cuándo, se conserva hasta que alguien vuelva a editar ese mensaje. Los convenios son del centro y no se borran con tu cuenta: quién creó cada uno, y cuándo, se conserva hasta que se elimine el convenio, y quién lo editó por última vez, hasta que alguien vuelva a editarlo o se elimine.
 
 No guardamos copias ocultas de tus datos de salud.
 
