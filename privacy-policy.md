@@ -70,11 +70,12 @@ Los textos los escribe el equipo de tu centro, o son los predeterminados de Fit 
 Guardamos en nuestros servidores cada mensaje que recibes: su texto, el centro que lo envía, el plan y la fecha de término a los que se refiere, el día en que se creó, si lo cerraste, si se canceló (por ejemplo, porque renovaste tu plan) y si se envió su notificación; en un saludo de cumpleaños, también el convenio que tu centro eligió como regalo. El equipo de tu centro escribe los textos, pero no ve a quién se envió cada mensaje ni si lo cerraste. Si eres parte del equipo de un centro, guardamos quién editó por última vez cada mensaje del centro y cuándo.
 
 #### Saludos y beneficios de tus centros
-La oferta para volver, el regalo de cumpleaños y la notificación de tu saludo de cumpleaños te llegan solo si aceptas recibirlos. Viene apagado.
-* Si tu teléfono permite las notificaciones de Fit Metrics y aún no respondiste, la app te pregunta «¿Quieres recibir saludos y beneficios de tus centros?». Ninguna respuesta viene marcada: eliges «Sí, quiero recibirlos» o «No, gracias». Si cierras la pregunta sin responder, sigue apagado, y la app puede volver a preguntarte más adelante.
+La oferta para volver, el regalo de cumpleaños y la notificación de tu saludo de cumpleaños te llegan solo si aceptas recibirlos. Para armarlos usamos la fecha en que venció tu plan y si lo renovaste, para la oferta, y el día y el mes de tu fecha de nacimiento, para el saludo. Viene apagado.
+* Si aún no respondiste, la app te pregunta «¿Quieres recibir saludos y beneficios de tus centros?» cuando tu teléfono permite las notificaciones de Fit Metrics. Ninguna respuesta viene marcada: eliges «Sí, quiero recibirlos» o «No, gracias». Si cierras la pregunta sin responder, sigue apagado, y la app puede volver a preguntarte una sola vez más, pasados 30 días.
 * También puedes encenderlo o apagarlo cuando quieras en **Notificaciones**, en el menú lateral, aunque tu teléfono no permita las notificaciones.
 * Tu respuesta vale para todos tus centros. Guardamos solo tu última respuesta, con su fecha y la versión del texto que viste.
 * Si aceptas, los ves en el inicio de la app y, si tu teléfono permite las notificaciones, también como notificación.
+* La oferta para volver se crea y se guarda también si no aceptaste, cuando tu centro la activó: no la ves ni te llega su notificación. Si aceptas mientras dura, aparece en el inicio.
 * No necesitas aceptarlo para usar la app. Con él apagado igual recibes los avisos de tu plan y ves el saludo de cumpleaños, sin regalo, en el inicio.
 * El equipo de tu centro no ve tu respuesta.
 
