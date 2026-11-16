@@ -1,6 +1,6 @@
 # Solicitar la eliminación de la cuenta
 
-**Última actualización:** 3 de noviembre de 2026
+**Última actualización:** 16 de noviembre de 2026
 
 ## Introducción
 
