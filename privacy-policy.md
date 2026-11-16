@@ -179,7 +179,7 @@ Podemos actualizar nuestra Política de privacidad de vez en cuando, así que te
 |---|---|---|
 | 1 | 13 de enero de 2026 | Primera versión, en inglés. |
 | 2 | 7 de octubre de 2026 | Ficha de salud, membresía y reservas, más detalle de la foto de perfil y del historial de entrenamiento, quién puede ver tu información, permisos de cámara y fotos, servicios de terceros y qué borra eliminar la cuenta. En inglés. |
-| 3 | 3 de noviembre de 2026 | En español. Mensajes de tu centro y notificaciones push: Firebase Cloud Messaging, APNs, tokens de notificaciones, cuánto tiempo se guardan y cómo dejar de recibirlos. El permiso de notificaciones. «Cookies» ya no ofrece aceptar o rechazar cookies, un ajuste que la app no tiene. |
+| 3 | 16 de noviembre de 2026 | En español. Mensajes de tu centro y notificaciones push: Firebase Cloud Messaging, APNs, tokens de notificaciones, cuánto tiempo se guardan y cómo dejar de recibirlos. El permiso de notificaciones. «Cookies» ya no ofrece aceptar o rechazar cookies, un ajuste que la app no tiene. |
 | 4 | 5 de noviembre de 2026 | «Saludos y beneficios de tus centros»: la oferta para volver, el regalo y la notificación del cumpleaños, cómo te preguntamos, qué guardamos de tu respuesta y cómo dejar de recibirlos. Convenios de tu centro: quién los ve, que no compartimos tus datos con sus empresas y qué guardamos de quién los crea o edita. |
 
 ## Contacto
